@@ -1,7 +1,7 @@
 # Welcome to Jatayu tourisam concept!
 
-Thank you for choosing Buffalo for your web development needs.
-
+Incomp💖lete
+![Screen shots](https://github.com/vishnukumarpv/Jatayu-tourisam-Online---Go-lang-Unofficial-/raw/master/Capture.JPG)
 ## Database Setup
 
 mysql database! Fantastic!
