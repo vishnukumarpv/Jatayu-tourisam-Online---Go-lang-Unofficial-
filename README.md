@@ -1,4 +1,4 @@
-# Welcome to Jatayu tourisam concept!
+# Welcome to Jatayu tourism concept!
 
 Incomp💖lete
 ![Screen shots](https://github.com/vishnukumarpv/Jatayu-tourisam-Online---Go-lang-Unofficial-/raw/master/Capture.JPG)
