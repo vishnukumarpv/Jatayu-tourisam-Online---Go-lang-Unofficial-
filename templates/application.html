@@ -10,12 +10,18 @@
     <link rel="icon" href="<%= assetPath("images/favicon.ico") %>">
   </head>
   <body>
+<%= partial("layouts/navuser.html") %>
 
-    <div class="container">
+    <div class="container-fluid">
       <%= partial("flash.html") %>
-      <%= yield %>
     </div>
+      <%= yield %>
 
+      <%= partial("layouts/footer.html") %>
+
+    <%= javascriptTag("static/js/manifest.2ae2e69a05c33dfc65f8.js") %>
+    <%= javascriptTag("static/js/vendor.b7dfe4704533de40dea5.js") %>
+    <%= javascriptTag("static/js/app.b68d86b972677da3d643.js") %>
     <%= javascriptTag("application.js") %>
   </body>
 </html>

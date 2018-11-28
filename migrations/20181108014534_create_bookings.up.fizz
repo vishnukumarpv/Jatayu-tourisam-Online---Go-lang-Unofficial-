@@ -1,0 +1,9 @@
+create_table("bookings") {
+	t.Column("id", "uuid", {"primary": true})
+	t.Column("adults","integer", {"null":false})
+	t.Column("children","integer", {"defalut":0})
+	t.Column("infants","integer", {"defalut":0})
+	t.Column("total","float", {"null":false})
+	t.Column("booked_to","timestamp", {})
+	t.Column("booked_at","timestamp", {}) 
+}

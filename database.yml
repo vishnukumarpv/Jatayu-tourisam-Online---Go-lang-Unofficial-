@@ -1,10 +1,10 @@
 development:
   dialect: "mysql"
-  database: "gojatayu_development"
+  database: "jatayu_advclm"
   host: "localhost"
   port: "3306"
   user: "root"
-  password: "root"
+  password: ""
   encoding: "utf8mb4_general_ci"
 
 test:

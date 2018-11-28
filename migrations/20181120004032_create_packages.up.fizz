@@ -1,0 +1,6 @@
+create_table("packages") {
+	t.Column("id", "uuid", {"primary": true})
+	t.Column("package", "string", {"size": 25})
+	t.Column("age_group", "string", {"size": 25})
+	t.Column("price", "float", {})
+}

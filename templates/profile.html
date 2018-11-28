@@ -1,0 +1,71 @@
+<header class="_home profile">
+
+    <div class="container">
+        <div class="profile_pg">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-2 prfl_img">
+                        <img src="<%= assetPath("/images/prifle_img.png") %>" alt="">
+                    </div>
+                    <div class="col-md-6 pl-3">
+                        <h3>Profile</h3>
+                        <ul>
+                            <li><span class="icon vis_icon-icons-3"></span> email@mail.com</li>
+                            <li><span class="icon vis_icon-icons-3"></span> email@mail.com</li>
+                            <li><span class="icon vis_icon-icons-3"></span> email@mail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 bookings_c">
+                        <h2>05</h2>
+                        <p>Bookings</p>
+                        <button class="main-btn line-btn">SHOW BOOKINGS <span class="vis_icon-icons-22"></span></button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<section class="bookings py-5">
+
+    <div class="container">
+        <h2 class="vis1">Your Bookings</h2>
+        <div class="row bookings-l px-5 py-4">
+
+            <div v-for="ticket in 10" :key="ticket" class="col-md-6 p-1">
+                <a href="">
+                    <article class="tickets">
+                        <h2>02 Oct. 2018</h2>
+                        <div class="counts">
+                            <div class="col">
+                                <span class="icon vis_icon-icons-3"></span> 02
+                            </div>
+                            <div class="col">
+                                <span class="icon vis_icon-icons-3"></span> 02
+                            </div>
+                            <div class="col">
+                                <span class="icon vis_icon-icons-3"></span> 02
+                            </div>
+                        </div>
+                        <h3>JTYU22456</h3>
+
+                    </article>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+            </div>
+        </div>
+    </div>
+</section>

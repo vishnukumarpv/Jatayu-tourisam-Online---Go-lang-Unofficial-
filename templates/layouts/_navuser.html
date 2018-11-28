@@ -1,0 +1,66 @@
+  <button class="def-btn h-menu"> MENU <span class="icon icon-Menu_2"></span></button>
+  <div class="container nav-main">
+    <div class="logo_nav">
+      <div class="logo">   
+      </div>
+      <div class="account dec-">
+        <a class="btn-m" href=""><span class="icon icon-icons-3"></span><span>Account</span></a>
+        <div class="acc_wrap">
+
+        <h3>Sign Up</h3>
+        <%= form_for( {},{action:loginPath()}){ %>
+          <div class="row v_form">
+          
+            <div class="input_g">
+              <span class="icon icon-icons-3"></span>
+              <input type="text" placeholder="Name" name="Name" class="text">
+            </div>
+            <div class="input_g">
+              <span class="icon icon-icons-3"></span>
+              <input type="text" placeholder="Email" name="Email" class="text">
+            </div>
+            <div class="input_g">
+              <span class="icon icon-icons-3"></span>
+              <input type="text" placeholder="Phone" class="text">
+            </div>
+            <div class="input_g">
+              <label class="rad_g">
+                <input type="radio" checked class="inp_" name="Sex">
+                <span class="indicator"></span>
+                <span class="label">Male</span>
+              </label>
+              <label class="rad_g">
+                <input type="radio" class="inp_" name="sex">
+                <span class="indicator"></span>
+                <span class="label">Female</span>
+              </label>
+            </div>
+            <div class="input_g">
+              <span class="icon icon-icons-3"></span>
+              <input type="password" placeholder="Password" name="Password" class="text">
+            </div>
+
+            <div class="agree">
+              <div class="input">
+                <label class="rad_g chk_bx">
+                  <input type="checkbox" class="inp_" name="agree">
+                  <span class="indicator"></span>
+                  <span class="icon icon-icons8_Checkmark"></span>
+                </label>
+              </div>
+              <p>I agree the terms and conditions. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+
+              </p>
+            </div>
+
+          
+          </div>
+          <button class="main-btn line-btn" type="submit">SIGN UP</button>
+          <% } %>
+          <p class="act"><a href="">Already have an account. <b>Sign In</b></a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>

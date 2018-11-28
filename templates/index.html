@@ -1,64 +1,173 @@
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1 col-sm-2 col-xs-2 logo">
-        <a href="<%= rootPath() %>"><img src="<%= rootPath() %>assets/images/logo.svg" alt=""></a>
-      </div>
-      <div class="col-md-9 col-sm-9 col-xs-10 titles">
-        <h1><%= t("welcome_greeting") %></h1>
-        <h2>
-          <a href="https://github.com/gobuffalo/buffalo"><i class="fa fa-github" aria-hidden="true"></i> https://github.com/gobuffalo/buffalo</a>
-        </h2>
-        <h2 class="documentation">
-          <a href="http://gobuffalo.io/"><i class="fa fa-book" aria-hidden="true"></i> Documentation</a>
-        </h2>
-      </div>
-    </div>
-  </div>
 
-</header>
+        <header class="_home f-h">
+            <!-- <HomeSlider/> -->
+        </header>
 
-<div class="row">
-  <div class="col-md-12">
-    <div class="subtitle">
-      <div class="container">
-        <h3>Defined Routes</h3>
-      </div>
-    </div>
-    <div class="table-responsive">
-      <table class="table table-striped">
-        <thead>
-          <tr text-align="left">
-            <th class="centered">METHOD</th>
-            <th>PATH</th>
-            <th>NAME</th>
-            <th>HANDLER</th>
-          </tr>
-        </thead>
-        <tbody>
+ 
 
-          <%= for (r) in routes { %>
-            <tr>
-              <td class="centered">
-                <%= r.Method %>
-              </td>
-              <td>
-                <%= if (r.Method != "GET" || r.Path ~= "{") { %>
-                  <%= r.Path %>
-                <% } else { %>
-                  <a href="<%= r.Path %>"><%= r.Path %></a>
-                <% } %>
-              </td>
-              <td>
-                <%= r.PathName %>
-              </td>
-              <td><code><%= r.HandlerName %></code></td>
-            </tr>
-          <% } %>
+    <section class="welcome_">
+        <div class="container">
+            <div class="row mt-5 mb-5"> 
+                <div class="col-md-6">
+                    <h2 class="default text-right">WELCOME TO JATAYU TOURISAM</h2>
+                    <img class="img-fluid" src="<%= assetPath() %>/images/jatayuadventure-center3.png" alt="adventure center">
+                </div>
+                <div class="col-md-6">
+                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        </tbody>
-      </table>
-    </div>
-  </div>
+<div class="links_wel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+    <a href="">Explore Adventures <span class="icon-icons-22"></span> </a>
 </div>
-<div class="foot"> <span> Powered by <a href="http://gobuffalo.io/">gobuffalo.io</a></span> </div>
+
+<div class="links_wel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+    <a href="">Explore Adventures <span class="icon-icons-22"></span> </a>
+</div>
+
+<div class="links_wel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+    <a href="">Explore Adventures <span class="icon-icons-22"></span> </a>
+</div>
+
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plans_slider mt-5 mb-5">
+        <div class="slide_img"></div>
+        <div class="slide_plans plns__">
+  
+ 
+            <div class="slider_card">
+                <div class="content">
+                    <a href=""><h3>Jatayu + Cable car</h3></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p> 400 <span>(GST include)</span> 
+                    <a href=""><span class="icon icon-arrow-right"></span></a>
+                    </p>
+                </div>
+            </div>             <div class="slider_card">
+                <div class="content">
+                    <a href=""><h3>Jatayu + Cable car</h3></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p> 400 <span>(GST include)</span> 
+                    <a href=""><span class="icon icon-arrow-right"></span></a>
+                    </p>
+                </div>
+            </div>             <div class="slider_card">
+                <div class="content">
+                    <a href=""><h3>Jatayu + Cable car</h3></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p> 400 <span>(GST include)</span> 
+                    <a href=""><span class="icon icon-arrow-right"></span></a>
+                    </p>
+                </div>
+            </div> 
+ 
+ 
+            
+ 
+
+        </div>
+    </section>
+
+    <section class="h-adventure py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                <?php echo require_once './images/Adventures.svg'; ?>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div> 
+            <div class="row justify-content-center">
+                <button class="main-btn">BOOK YOUR TICKET NOW  <span class="icon-arrow-right"></span></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="h-feedback py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><h2 class="default text-right">FEEDBACKS</h2></div>
+            </div>
+            <div class=" feedbk__">
+                <div class=" fd_sld">
+                    <div class="row align-items-center my-5">
+                        <div class="col-md-2 q-avatar"><img class="img-fluid" src="<%= assetPath() %>/images/feed_img.jpg" alt="iamgename"></div>
+                        <div class="col-md-10 feedback-q">
+                        <span class="icon vis_icon-Comments"></span>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <h4>- Mr.Mohanlal</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class=" fd_sld">
+                    <div class="row align-items-center my-5">
+                        <div class="col-md-2 q-avatar"><img class="img-fluid" src="<%= assetPath() %>/images/feed_img.jpg" alt="iamgename"></div>
+                        <div class="col-md-10 feedback-q">
+                        <span class="icon vis_icon-Comments"></span>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <h4>- Mr.Mohanlal</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class=" fd_sld">
+                    <div class="row align-items-center my-5">
+                        <div class="col-md-2 q-avatar"><img class="img-fluid" src="<%= assetPath() %>/images/feed_img.jpg" alt="iamgename"></div>
+                        <div class="col-md-10 feedback-q">
+                        <span class="icon vis_icon-Comments"></span>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <h4>- Mr.Mohanlal</h4>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="insta_feeds">
+        <div class="insta_imgs"> </div>
+        <div class="insta_wrap p-3">
+        <h2><span class="icon icon-Instagram_Old_2"></span>Instagram</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <h4>#I_LOVE_JATAYU_ADVENTURES</h4>
+        <P>Share your images on instagram with this #hash tag</P>
+        <ul class="sh_buttons">
+            <li><a href=""><span class="icon icon-Instagram_Old_2"></span></a></li>
+            <li><a href=""><span class="icon icon-Instagram_Old_2"></span></a></li>
+            <li><a href=""><span class="icon icon-Instagram_Old_2"></span></a></li>
+            <li><a href=""><span class="icon icon-Instagram_Old_2"></span></a></li>
+        </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 

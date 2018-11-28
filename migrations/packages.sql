@@ -1,0 +1,9 @@
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('1', 'jatayu', 'adults', 450, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('2', 'jatayu', 'children', 300, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('3', 'jatayu', 'infants', 250, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('4', 'adventure', 'adults', 1000, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('5', 'adventure', 'children', 850, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('6', 'adventure', 'infants', 800, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('7', 'helirde', 'adults', 2000, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('8', 'helirde', 'children', 1800, '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `packages` (`id`, `package`, `age_group`, `price`, `created_at`, `updated_at`) VALUES ('9', 'helirde', 'infants', 500, '0000-00-00 00:00:00', '0000-00-00 00:00:00');

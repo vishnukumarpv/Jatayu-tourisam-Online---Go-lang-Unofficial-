@@ -1,0 +1,10 @@
+package actions
+
+import (
+	"github.com/gobuffalo/buffalo"
+)
+
+//BookingHandler is a
+func BookingHandler(c buffalo.Context) error {
+	return c.Render(200, r.HTML("booking/book.html"))
+}
